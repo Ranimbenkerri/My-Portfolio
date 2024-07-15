@@ -134,7 +134,7 @@ export const DATA = {
     active: true
 },
     {
-    title: "Rival School",
+    title: "Portfolio",
     description: "Portfolio build usign Next Js TypeScript Tailwind",
     image: portfolio,
     href: "",
