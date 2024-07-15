@@ -169,7 +169,7 @@ export const DATA = {
     image: dzMohami,
     href: "https://github.com/Ranimbenkerri/dz_mohami_front",
     description: "DZ Mohami is an innovative legal services platform that connects clients with experienced attorneys in various fields of law. Our website provides comprehensive legal solutions, making it easier for individuals and businesses to find, consult, and hire the right legal professionals for their needs",
-    technologies: ["React", "Fast Api", "Vite", "SOO", "Docker"],
+    technologies: ["React","Shadcn", "Fast Api", "Vite", "SOO", "Docker"],
     active: true
 },
 {
