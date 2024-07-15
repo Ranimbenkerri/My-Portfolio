@@ -79,7 +79,7 @@ export const DATA = {
       start: "December 2021",
       end: "....",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      "Flutter team lead at ByteCraft Club, I guide my team in learning the basics of Dart and Flutter, as well as developing their skills in these areas. This involves working closely with each team member to identify their strengths and weaknesses, and then designing training programs and projects that will help them improve."
     },
     {
       company: "Infinity Prod",
@@ -89,8 +89,8 @@ export const DATA = {
       logoUrl: "/infinity-prod.png",
       start: "January 2022",
       end: "April 2022",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      description: "En tant que développeur Front-End chez Infinity Prod, j'ai eu l'opportunité de participer à la mise en œuvre de plusieurs projets en équipe. Mon rôle consistait à concevoir et à développer l'interface utilisateur, en utilisant des technologies telles que HTML, CSS et JavaScript. J'ai travaillé en étroite collaboration avec mes collègues pour assurer la cohérence et la qualité des produits finaux, tout en respectant les délais et les exigences du clien.",
+
     },
     {
       company: "Condor",
@@ -100,8 +100,7 @@ export const DATA = {
       logoUrl: "/condor.jpg",
       start: "Juillet 2024",
       end: "Aout 2024",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+      description:"As a Front-end developer, I had the opportunity to contribute to the innovative project e-faciliti.dz."
     },
     
   ],
