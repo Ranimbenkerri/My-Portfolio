@@ -1,6 +1,6 @@
 ## Ranim Benkerri Portfolio
 
-- [View the live project here.]([https://1farz1.github.io/Fares-Bekkouche-Portfolio/](https://ranim-portfolio-uq9x.vercel.app))
+- [View the live project here.](https://ranim-portfolio-uq9x.vercel.app)
 
 ## Tech Used
 
