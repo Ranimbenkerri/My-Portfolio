@@ -103,7 +103,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills" className="flex flex-row">
+      <section id="skills" className="flex flex-col  md:flex-row">
         <div className="flex min-h-0 flex-col gap-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-2xl font-bold">Skills</h2>
@@ -116,7 +116,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-        <IconCloudDemo />
+            <IconCloudDemo />
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
