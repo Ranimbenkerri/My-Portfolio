@@ -215,7 +215,7 @@ export default function Page() {
                   href="https://www.linkedin.com/in/ranim-benkerri-613472230/"
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  with a direct question on LinkedIN
                 </a>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
