@@ -8,8 +8,8 @@ import messageME from '../../public/Images/message-me.png'
 import newsApp from '../../public/Images/news-app.png'
 import rivalSchool from '../../public/Images/rival-shcool.png'
 import teleQuest from '../../public/Images/telequest.png'
-import toDo from '../../public/Images/to-do.png'
 import worldCupGuie from '../../public/Images/world-cup-guide.png'
+import portfolio from '../../public/Images/portfolio.png'
 
 export const DATA = {
   name: "RANIM Benkerri",
@@ -18,8 +18,8 @@ export const DATA = {
   location: "Bordj-Bou Arerridj,Algeria",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer. I love building things and helping people.",
-  summary:"Hello! My name is Ranim,I am a student at the École Supérieure d'Informatique. I specialize in Front-End development, and I am proficient in React, Next.js, and several other frameworks. My goal is to create seamless and intuitive user experiences by bringing designs to life through code",
+    "Web / mobile developer. I love building things and helping people.",
+  summary:"Hello! My name is Ranim,I am a student at the Higher School of Computer Science and Digital Technologies.. I specialize in Front-End development, and I am proficient in React, Next.js, and several other frameworks. My goal is to create seamless and intuitive user experiences by bringing designs to life through code",
   avatarUrl: "/public/me.png",
   skills: [
     "React",
@@ -37,10 +37,10 @@ export const DATA = {
     "Linux",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "#", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    { href: "#hero", icon: HomeIcon, label: "Home" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "#projects", icon: CodeIcon, label: "Projects" },
+    // { href: "#", icon: PencilLine, label: "Notes" },
   ],
   contact: {
     email: "ranimbenkerri9@gmail.com",
@@ -72,37 +72,34 @@ export const DATA = {
   work: [
     {
       company: "ByteCraft",
-      href: "https://atomic.finance",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "On site",
+      title: "web/mobile developer",
+      logoUrl: "/images/bytecraft.png",
+      start: "December 2021",
+      end: "....",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
       company: "Infinity Prod",
       badges: [],
-      href: "https://shopify.com",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      title: "Web Developer",
+      logoUrl: "/images/infinity-prod.png",
+      start: "January 2022",
+      end: "April 2022",
       description:
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
       company: "Condor",
-      href: "https://nvidia.com/",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      location: "Bordj Bou-Arerridj, DZ",
+      title: "Web/Mobile developer",
+      logoUrl: "/images/condor.jpg",
+      start: "Juillet 2024",
+      end: "Aout 2024",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
@@ -110,27 +107,19 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Aissa Hamitouch",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "Higher School of Computer Science and Digital Technologies.",
+      href: "estin.dz",
+      degree: "2eme année cycle superieur ",
+      logoUrl: "/estin.png",
+      start: "2021",
+      end: "",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
+      school: "Aissa Hamitouche",
       href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
+      degree: "Studied for three years at lycee and achieved a Bachelor's degree with excellent grade (17/20)",
+      logoUrl: "",
+      start: "2018",
       end: "2021",
     },
   ],
@@ -142,6 +131,14 @@ export const DATA = {
     image: rivalSchool,
     href: "https://github.com/Ranimbenkerri?tab=repositories",
     technologies: ["React", "Redux", "Material UI"],
+    active: true
+},
+    {
+    title: "Rival School",
+    description: "Portfolio build usign Next Js TypeScript Tailwind",
+    image: portfolio,
+    href: "",
+    technologies: ["Nextt JS","TypeScript","Tailwind","Material UI"],
     active: true
 },
 {
@@ -216,57 +213,42 @@ export const DATA = {
   
   hackathons: [
    {
-      title: "Hack Western 5",
+      title: "Code Rally",
       dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      location: "Estin, Bejaia",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+      "Hackathon",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      
     },
   
     {
-      title: "MHacks 9",
+      title: "NasaSpaceApp",
       dates: "March 24th - 26th, 2017",
-      location: "Ann Arbor, Michigan",
+      location: "USTHB, Algeria",
       description:
-        "Developed Super Graphic Air Traffic, a VR website made to introduce people to the world of air traffic controlling. This project was built completely using THREE.js as well as a node backend server.",
+      "The NASA International Space Apps Challenge is a hackathon for coders, scientists, designers, storytellers, makers, technologists, and innovators around the world to come together and use open data from NASA and its Space Agency Partners to create solutions to challenges we face on Earth and in space.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/mhacks-9.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/threejs-planes",
-        },
-      ],
     },
     {
-      title: "StartHacks I",
+      title: "Train It",
       dates: "March 4th - 5th, 2017",
-      location: "Waterloo, Ontario",
+      location: "Estin, Bejaia",
       description:
-        "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack.",
+      "DataThon",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-      win: "1st Place Winner",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-ionic",
-        },
-        {
-          title: "Source (Server)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-rails",
-        },
-      ],
     },
-    
+     {
+      title: "HackDay",
+      dates: "March 24th - 26th, 2017",
+      location: "Estin, Bejeaia",
+      description:
+      "Capture the flags",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/mhacks-9.png",
+    },
   ],
 } as const;
