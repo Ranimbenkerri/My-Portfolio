@@ -75,7 +75,7 @@ export const DATA = {
       badges: [],
       location: "On site",
       title: "web/mobile developer",
-      logoUrl: "/images/bytecraft.png",
+      logoUrl: "/bytecraft.png",
       start: "December 2021",
       end: "....",
       description:
@@ -86,7 +86,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Web Developer",
-      logoUrl: "/images/infinity-prod.png",
+      logoUrl: "/infinity-prod.png",
       start: "January 2022",
       end: "April 2022",
       description:
@@ -97,7 +97,7 @@ export const DATA = {
       badges: [],
       location: "Bordj Bou-Arerridj, DZ",
       title: "Web/Mobile developer",
-      logoUrl: "/images/condor.jpg",
+      logoUrl: "/condor.jpg",
       start: "Juillet 2024",
       end: "Aout 2024",
       description:
